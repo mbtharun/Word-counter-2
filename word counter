@@ -1,0 +1,15 @@
+def count_words(sentence):
+    # Split the sentence into words
+    words = sentence.split()
+    # Count the number of words
+    num_words = len(words)
+    return num_words
+
+#implementation 
+sentence = input("Enter a sentence / paragraph : ")
+#Here if statement will check the condition whether the user entered any null characters or not
+if sentence.strip() == "":
+    print("You didn't enter any words/sentence.")
+else:
+    word_count = count_words(sentence)
+    print("Number of words :", word_count)
