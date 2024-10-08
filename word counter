@@ -12,4 +12,4 @@ if sentence.strip() == "":
     print("You didn't enter any words/sentence.")
 else:
     word_count = count_words(sentence)
-    print("Number of words :", word_count)
+    print("Number of words :", word_count) 
